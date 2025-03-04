@@ -39,4 +39,13 @@ class Teamlead : Employee() {
     }
 }
 
+class ThePinguinFlipper : Employee() {
+ 
+    override fun haveLunch() {
+        println("Навернуть пельмешей в 13.00")
+}
+   
+    override fun goHome() {
+        println("Еду домой спустя 3 месяца вахты")
+}
 // TODO здесь можно создать новый класс, который будет наследоваться от класса Employee. Не забудьте переопределить методы haveLunch() и goHome()
